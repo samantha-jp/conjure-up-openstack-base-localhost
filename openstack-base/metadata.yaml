@@ -1,4 +1,5 @@
 cloud-whitelist:
+- localhost
 - maas
 friendly-name: OpenStack with NovaKVM
 options-whitelist:
@@ -16,4 +17,4 @@ options-whitelist:
   nova-cloud-controller:
   - console-access-protocol
   - console-ssl-cert
-bundle-name: openstack-base
+
